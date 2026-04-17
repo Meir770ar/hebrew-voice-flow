@@ -92,10 +92,26 @@ REM --- Step 5: AI key setup ---
 if "%MODE%"=="2" (
     if not exist ".env" (
         echo.
-        echo Get a free Groq API key at: https://console.groq.com/keys
-        set /p GROQKEY="Paste your Groq key (or press Enter to skip): "
+        echo  ┌─────────────────────────────────────────────────┐
+        echo  │  How to get a FREE Groq API key ^(takes 1 min^)    │
+        echo  ├─────────────────────────────────────────────────┤
+        echo  │  1. Opening https://console.groq.com/keys       │
+        echo  │  2. Sign in with Google / GitHub / email        │
+        echo  │  3. Click "Create API Key", give it any name    │
+        echo  │  4. Copy the key ^(starts with gsk_...^)          │
+        echo  │  5. Paste it below                              │
+        echo  │                                                 │
+        echo  │  No credit card. 14,400 free requests/day.      │
+        echo  │  Full guide: docs\groq-api-key.md               │
+        echo  └─────────────────────────────────────────────────┘
+        start "" "https://console.groq.com/keys"
+        echo.
+        set /p GROQKEY="Paste your Groq key here (or press Enter to skip): "
         if not "!GROQKEY!"=="" (
             echo GROQ_API_KEY=!GROQKEY!> .env
+            echo     Key saved to .env
+        ) else (
+            echo     Skipped - you can add the key later by running setup.bat
         )
     )
 )

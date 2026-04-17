@@ -63,7 +63,7 @@
 - **Disk space:** ~2 GB for Whisper medium model (downloaded on first run)
 
 ### AI mode only
-- Free [Groq API key](https://console.groq.com/keys) (the free tier is generous — 14,400 requests/day)
+- Free Groq API key — **[see step-by-step guide](docs/groq-api-key.md)** (takes 1 minute, no credit card, 14,400 requests/day)
 
 ---
 

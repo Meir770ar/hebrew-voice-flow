@@ -50,7 +50,16 @@ if errorlevel 1 (
 REM --- Mode-specific config ---
 if "%MODE%"=="2" (
     echo.
-    set /p GROQKEY="Paste your Groq API key (from https://console.groq.com/keys): "
+    echo  How to get a free Groq API key:
+    echo    1. Go to https://console.groq.com/keys
+    echo    2. Sign in with Google / GitHub / email
+    echo    3. Click "Create API Key"
+    echo    4. Copy the key ^(starts with gsk_...^)
+    echo.
+    echo  No credit card required. 14,400 free requests/day.
+    echo  Full guide: docs\groq-api-key.md
+    echo.
+    set /p GROQKEY="Paste your key here (or press Enter to skip): "
     if "!GROQKEY!"=="" (
         echo [WARN] no key entered - AI will be disabled until you set GROQ_API_KEY
     ) else (
