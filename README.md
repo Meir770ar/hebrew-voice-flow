@@ -1,41 +1,34 @@
+<div align="center">
+
 # Hebrew Voice Flow
 
-Free, private, system-wide voice dictation for Windows — in Hebrew (with mixed English technical terms).
+**דיבור → טקסט בעברית. בכל אפליקציה. על המחשב שלך. בחינם.**
 
-Hold a key, speak, release — text appears at your cursor. Works in any app: WhatsApp Web, Gmail, VSCode, Notepad, Chrome, Telegram, everywhere.
+*Hold a key, speak, release — Hebrew text appears at your cursor. Works anywhere on Windows.*
 
-> דיקטציה קולית חינמית ופרטית בעברית עבור Windows. תומכת במונחים טכניים באנגלית. עובדת בכל אפליקציה.
+<br />
 
-## Demo
+<img src="https://github.com/Meir770ar/hebrew-voice-flow/releases/download/v0.1.0/demo.gif" alt="Hebrew Voice Flow demo" width="400" />
 
-<p align="center">
-  <img src="https://github.com/Meir770ar/hebrew-voice-flow/releases/download/v0.1.0/demo.gif" alt="Hebrew Voice Flow demo" width="480" />
-</p>
+<br /><br />
 
-<p align="center">
-  <a href="https://github.com/Meir770ar/hebrew-voice-flow/releases/download/v0.1.0/demo-final.mp4">▶ Watch with audio (MP4, 20s)</a>
-</p>
+### 🚀 Install in 1 click
 
-## One-click install
+<a href="https://github.com/Meir770ar/hebrew-voice-flow/releases/download/v0.1.0/install.bat">
+  <img src="https://img.shields.io/badge/⬇_Download_installer-2ea043?style=for-the-badge&logoColor=white" alt="Download installer" height="60" />
+</a>
 
-<p align="center">
-  <a href="https://raw.githubusercontent.com/Meir770ar/hebrew-voice-flow/main/install.bat">
-    <img src="https://img.shields.io/badge/Download-install.bat-2ea043?style=for-the-badge&logo=windows&logoColor=white" alt="Download installer" height="50" />
-  </a>
-</p>
+<br />
 
-**Right-click the button → "Save link as..." → Download → Double-click `install.bat`**
+**Click button → Save → Double-click `install.bat` → Done.**
 
-The installer will:
-1. Install Python automatically if missing
-2. Download the project
-3. Install all dependencies
-4. Ask if you want local-only or AI mode
-5. Create a desktop shortcut and optionally auto-start on boot
+*Automatically installs Python, downloads the tool, sets up hotkeys, creates desktop shortcut.*
 
-You can then launch from the desktop. That's it.
+<br />
 
-> **התקנה בקליק אחד:** הורד את הכפתור למעלה, לחיצה כפולה, והכל מותקן.
+[▶ Watch demo with sound](https://github.com/Meir770ar/hebrew-voice-flow/releases/download/v0.1.0/demo-final.mp4) • [📖 Docs](docs/installation.md) • [🐛 Report issue](https://github.com/Meir770ar/hebrew-voice-flow/issues)
+
+</div>
 
 ---
 
