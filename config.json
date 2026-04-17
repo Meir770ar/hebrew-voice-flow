@@ -1,0 +1,16 @@
+{
+  "model": "medium",
+  "language": "he",
+  "sounds_enabled": true,
+  "history_enabled": true,
+  "max_history": 50,
+  "min_recording_duration": 0.3,
+  "idle_timeout": 60,
+  "initial_prompt": "הקלטה בעברית עם מונחים טכניים באנגלית כגון commit, deploy, API, JavaScript, React, Firebase, Claude, GitHub, Python, Node.",
+  "hotkeys": {
+    "raw": "ctrl_r",
+    "cleanup": "alt_r",
+    "dev_request": "shift_r"
+  },
+  "groq_model": "llama-3.3-70b-versatile"
+}
