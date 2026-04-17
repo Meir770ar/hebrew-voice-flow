@@ -6,6 +6,16 @@ Hold a key, speak, release — text appears at your cursor. Works in any app: Wh
 
 > דיקטציה קולית חינמית ופרטית בעברית עבור Windows. תומכת במונחים טכניים באנגלית. עובדת בכל אפליקציה.
 
+## Demo
+
+<p align="center">
+  <img src="https://github.com/Meir770ar/hebrew-voice-flow/releases/download/v0.1.0/demo.gif" alt="Hebrew Voice Flow demo" width="480" />
+</p>
+
+<p align="center">
+  <a href="https://github.com/Meir770ar/hebrew-voice-flow/releases/download/v0.1.0/demo-final.mp4">▶ Watch with audio (MP4, 20s)</a>
+</p>
+
 ---
 
 ## Features
