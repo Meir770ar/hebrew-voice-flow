@@ -16,6 +16,27 @@ Hold a key, speak, release — text appears at your cursor. Works in any app: Wh
   <a href="https://github.com/Meir770ar/hebrew-voice-flow/releases/download/v0.1.0/demo-final.mp4">▶ Watch with audio (MP4, 20s)</a>
 </p>
 
+## One-click install
+
+<p align="center">
+  <a href="https://raw.githubusercontent.com/Meir770ar/hebrew-voice-flow/main/install.bat">
+    <img src="https://img.shields.io/badge/Download-install.bat-2ea043?style=for-the-badge&logo=windows&logoColor=white" alt="Download installer" height="50" />
+  </a>
+</p>
+
+**Right-click the button → "Save link as..." → Download → Double-click `install.bat`**
+
+The installer will:
+1. Install Python automatically if missing
+2. Download the project
+3. Install all dependencies
+4. Ask if you want local-only or AI mode
+5. Create a desktop shortcut and optionally auto-start on boot
+
+You can then launch from the desktop. That's it.
+
+> **התקנה בקליק אחד:** הורד את הכפתור למעלה, לחיצה כפולה, והכל מותקן.
+
 ---
 
 ## Features
@@ -53,19 +74,15 @@ Hold a key, speak, release — text appears at your cursor. Works in any app: Wh
 
 ---
 
-## Quick Start
+## Manual install (advanced)
+
+If you prefer not to use the one-click installer:
 
 ```bash
 git clone https://github.com/Meir770ar/hebrew-voice-flow.git
 cd hebrew-voice-flow
 setup.bat
 ```
-
-The setup script will:
-1. Check Python is installed
-2. Ask which version to install (Local / AI)
-3. Install dependencies
-4. (AI mode only) Ask for your Groq API key and save it to `.env`
 
 After setup:
 ```bash
